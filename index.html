@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Dome 🌻</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="inicio">
+
+        <div class="intro" id="intro">
+
+            <h1>Para Dome 🌻</h1>
+
+            <p>
+                Hay algo que quería regalarte este 21 de septiembre.
+            </p>
+
+            <button id="btnSorpresa">
+                🌻 Ver mi sorpresa
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <main class="escenario" id="escenario">
+
+        <div id="estrellas"></div>
+
+        <div class="luna"></div>
+
+
+        <div class="mensaje-inicial">
+
+            <h2>
+                Hay detalles que simplemente merecen florecer...
+            </h2>
+
+            <p>
+                Y este es uno de ellos.
+            </p>
+
+        </div>
+
+
+        <div class="musica">
+
+            <button id="btnMusica">
+                ▶
+            </button>
+
+            <div class="musica-info">
+
+                <span
+                    class="musica-titulo"
+                    id="musicaTitulo">
+                    Flores
+                </span>
+
+                <span
+                    class="musica-estado"
+                    id="estadoMusica">
+                    Presiona para reproducir
+                </span>
+
+            </div>
+
+            <button
+                class="btn-cargar-musica"
+                id="btnAnterior">
+                ‹
+            </button>
+
+            <button
+                class="btn-cargar-musica"
+                id="btnSiguiente">
+                ›
+            </button>
+
+        </div>
+
+
+        <audio id="audioMusica"></audio>
+
+
+        <div id="campo">
+
+            <div
+                class="flor"
+                style="left: 8%; --escala: .75;"
+                data-mensaje="Porque incluso los pequeños detalles pueden hacer bonito un día."
+            >
+
+                <div class="cabeza">
+
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+
+                    <div class="centro"></div>
+
+                </div>
+
+                <div class="tallo"></div>
+
+                <div class="hoja izquierda"></div>
+                <div class="hoja derecha"></div>
+
+            </div>
+
+
+            <div
+                class="flor"
+                style="left: 20%; --escala: 1;"
+                data-mensaje="Una flor amarilla para recordarte lo especial que eres."
+            >
+
+                <div class="cabeza">
+
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+
+                    <div class="centro"></div>
+
+                </div>
+
+                <div class="tallo"></div>
+
+                <div class="hoja izquierda"></div>
+                <div class="hoja derecha"></div>
+
+            </div>
+
+
+            <div
+                class="flor"
+                style="left: 33%; --escala: .8;"
+                data-mensaje="Porque hay personas que llegan y hacen que todo tenga un poquito más de color."
+            >
+
+                <div class="cabeza">
+
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+
+                    <div class="centro"></div>
+
+                </div>
+
+                <div class="tallo"></div>
+
+                <div class="hoja izquierda"></div>
+                <div class="hoja derecha"></div>
+
+            </div>
+
+
+            <div
+                class="flor"
+                style="left: 47%; --escala: 1.15;"
+                data-mensaje="Esta flor es pequeña, pero lleva un cariño enorme."
+            >
+
+                <div class="cabeza">
+
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+
+                    <div class="centro"></div>
+
+                </div>
+
+                <div class="tallo"></div>
+
+                <div class="hoja izquierda"></div>
+                <div class="hoja derecha"></div>
+
+            </div>
+
+
+            <div
+                class="flor"
+                style="left: 61%; --escala: .9;"
+                data-mensaje="Que nunca te falten motivos para sonreír."
+            >
+
+                <div class="cabeza">
+
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+
+                    <div class="centro"></div>
+
+                </div>
+
+                <div class="tallo"></div>
+
+                <div class="hoja izquierda"></div>
+                <div class="hoja derecha"></div>
+
+            </div>
+
+
+            <div
+                class="flor"
+                style="left: 76%; --escala: 1;"
+                data-mensaje="Un pequeño detalle amarillo para una persona muy especial."
+            >
+
+                <div class="cabeza">
+
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+
+                    <div class="centro"></div>
+
+                </div>
+
+                <div class="tallo"></div>
+
+                <div class="hoja izquierda"></div>
+                <div class="hoja derecha"></div>
+
+            </div>
+
+
+            <div
+                class="flor"
+                style="left: 91%; --escala: .7;"
+                data-mensaje="Espero que este pequeño detalle consiga sacarte una sonrisa."
+            >
+
+                <div class="cabeza">
+
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+                    <div class="petalo"></div>
+
+                    <div class="centro"></div>
+
+                </div>
+
+                <div class="tallo"></div>
+
+                <div class="hoja izquierda"></div>
+                <div class="hoja derecha"></div>
+
+            </div>
+
+        </div>
+
+
+        <div id="particulas"></div>
+
+
+        <div
+            class="mensaje-flor"
+            id="mensajeFlor">
+        </div>
+
+
+        <div
+            class="lluvia-petalos"
+            id="lluviaPetalos">
+        </div>
+
+
+        <section
+            class="mensaje-final"
+            id="mensajeFinal">
+
+            <h2>
+                Para ti, Dome 🌻
+            </h2>
+
+            <p>
+                Quería regalarte algo diferente este 21 de septiembre.
+                No solamente una flor, sino un pequeño momento hecho
+                especialmente para ti.
+            </p>
+
+            <span>
+                Con cariño, Xandro
+            </span>
+
+            <button id="btnCarta">
+                Leer mi carta
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <div
+        class="carta-overlay"
+        id="cartaOverlay">
+
+        <div class="carta">
+
+            <button id="cerrarCarta">
+                ×
+            </button>
+
+            <h2>
+                Para Dome 🌻
+            </h2>
+
+            <p>
+                Hay regalos que se pueden comprar y otros que simplemente
+                se hacen con tiempo, paciencia y un poquito de cariño.
+            </p>
+
+            <p>
+                Quería que este detalle fuera diferente. Por eso terminé
+                haciendo este pequeño lugar lleno de flores amarillas,
+                porque pensé que sería bonito regalarte algo que pudieras
+                guardar como un recuerdo.
+            </p>
+
+            <p>
+                Espero que cuando veas estas flores puedas sonreír aunque
+                sea un poquito y recordar que alguien se tomó el tiempo
+                de hacer esto pensando en ti.
+            </p>
+
+            <p>
+                Gracias por ser una persona tan especial y por todos esos
+                pequeños momentos que terminan haciendo que los días sean
+                mejores.
+            </p>
+
+            <p>
+                Feliz 21 de septiembre, Dome.
+            </p>
+
+            <p>
+                Con cariño,
+                <br>
+                <strong>Xandro</strong> 🌻
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
